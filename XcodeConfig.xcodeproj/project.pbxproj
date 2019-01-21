@@ -48,7 +48,7 @@
 				0426326721F5D07E000D28BB /* CommonConfig.xcconfig */,
 				0426326521F5D03A000D28BB /* DebugConfig.xcconfig */,
 				0426326621F5D05A000D28BB /* ReleaseConfig.xcconfig */,
-				0426324C21F5CF94000D28BB /* 111 */,
+				0426324C21F5CF94000D28BB /* XcodeConfig */,
 				0426324B21F5CF94000D28BB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -61,7 +61,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0426324C21F5CF94000D28BB /* 111 */ = {
+		0426324C21F5CF94000D28BB /* XcodeConfig */ = {
 			isa = PBXGroup;
 			children = (
 				0426324D21F5CF94000D28BB /* AppDelegate.h */,
@@ -74,7 +74,7 @@
 				0426325B21F5CF97000D28BB /* Info.plist */,
 				0426325C21F5CF97000D28BB /* main.m */,
 			);
-			path = 111;
+			path = XcodeConfig;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -295,7 +295,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
-				INFOPLIST_FILE = 111/Info.plist;
+				INFOPLIST_FILE = XcodeConfig/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,7 +312,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
-				INFOPLIST_FILE = 111/Info.plist;
+				INFOPLIST_FILE = XcodeConfig/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
