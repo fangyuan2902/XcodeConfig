@@ -1,0 +1,17 @@
+//
+//  DebugConfig.xcconfig
+//  111
+//
+//  Created by mac on 2019/1/21.
+//  Copyright © 2019年 k. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+#include "CommonConfig.xcconfig"
+
+// 测试下基础的URL
+BASEURL = @"https:/$()/test.com/api/api/"
+// 是测试的环境
+IS_PRODUCATION = NO

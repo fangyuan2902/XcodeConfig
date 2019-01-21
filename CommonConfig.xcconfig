@@ -1,0 +1,12 @@
+//
+//  CommonConfig.xcconfig
+//  111
+//
+//  Created by mac on 2019/1/21.
+//  Copyright © 2019年 k. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) BASEURL='$(BASEURL)' IS_PRODUCATION='$(IS_PRODUCATION)'
